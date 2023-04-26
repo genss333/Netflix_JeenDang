@@ -1,0 +1,5 @@
+.main {
+    background-image: url('src/assets/home/show.webp');
+    background-size: cover;
+    height: 100vh;
+}

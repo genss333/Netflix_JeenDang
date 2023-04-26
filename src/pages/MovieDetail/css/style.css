@@ -1,0 +1,6 @@
+.content-moive {
+    height: 100%;
+    margin: 5rem auto;
+    display: grid;
+    place-content: center;
+}

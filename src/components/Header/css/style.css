@@ -1,0 +1,20 @@
+.nav-home {
+  height: 4rem;
+  background-color: #000000;
+}
+
+
+.nav-home-item{
+  color: aliceblue;
+  padding-top: 1rem;
+}
+
+.nav-home-item p{
+  color: aliceblue;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.nav-home img{
+  height: 3rem;
+}

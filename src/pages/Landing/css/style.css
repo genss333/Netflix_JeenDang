@@ -1,0 +1,97 @@
+.body{
+    background-color: rgb(13, 1, 55);
+    height: 210vh;
+}
+
+.box-container {
+    background-image:
+        linear-gradient(to right bottom, rgba(6, 0, 25), rgba(82, 54, 146, 0.73)),
+        url('src/assets/landing_page_image/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+.content {
+    padding-left: 15rem;
+    padding-top: 4rem;
+    color: #fff;
+}
+
+.text-content {
+    max-width: 60rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.text-content p {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+.action{
+    max-width: 30rem;
+}
+
+.input-email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    font-size: 1.1rem;
+}
+
+.btn-danger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    font-size: 1.1rem;
+}
+
+.box-grediant{
+    display: grid;
+    place-content: center;
+    background-image:
+        linear-gradient(to right, rgb(26, 4, 100), rgba(120, 6, 79, 0.73) 100%);
+    background-size: cover;
+    color: rgb(6, 0, 25);
+    height: 32rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    color: #fff;
+}
+
+.box-grediant img{
+    border-radius: 1rem;
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+.box-grediant h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.box-grediant p{
+    margin: 1rem;
+}
+
+.box-content{
+    position:absolute;
+    top: 85%;
+}
